@@ -6,13 +6,10 @@ var bodyPraser = require('body-parser')
 var con = mysql.createConnection({
 
 
-        host:'localhost',
+        host:'containers-us-west-65.railway.app',
         user:'root',
-        password:'n0m3l0',
-        database:'prueba'
-
-
-
+        password:'iY9mdL4xApoxIH3ePglH',
+        database:'railway'
 
 })
 
