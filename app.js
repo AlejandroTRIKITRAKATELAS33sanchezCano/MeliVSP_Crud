@@ -6,10 +6,13 @@ var bodyPraser = require('body-parser')
 var con = mysql.createConnection({
 
 
-        host:'containers-us-west-65.railway.app',
+        host:'containers-us-west-96.railway.app',
         user:'root',
-        password:'iY9mdL4xApoxIH3ePglH',
+        password:'s91exsM5Q2NCJbh1Vqfc',
         database:'railway'
+
+
+
 
 })
 
@@ -110,7 +113,7 @@ app.post('/cambiar',(req,res)=>{
 
 
 
-app.listen(3000,()=>{
+app.listen(8014,()=>{
 
 
     console.log("Logueamos puerto 3000")
